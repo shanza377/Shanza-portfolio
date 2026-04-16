@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 const themeBtn = document.getElementById('theme-btn');
 
 themeBtn.addEventListener('click', () => {
@@ -9,3 +10,4 @@ if(document.body.classList.contains('dark-mode')) {
     themeBtn.innerText = 'Dark Mode';
 }
 });
+<Analytics/>
